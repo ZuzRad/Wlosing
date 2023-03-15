@@ -1,0 +1,119 @@
+﻿<UserControl x:Class="włosing.Views.Search"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:local="clr-namespace:włosing.Views" xmlns:iex="http://schemas.microsoft.com/expression/2010/interactions"
+             xmlns:viewmodel="clr-namespace:włosing.ViewModel" xmlns:cn="clr-namespace:włosing.ViewModel.Converters" d:DataContext="{d:DesignInstance Type=viewmodel:SearchViewModel}"
+             
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <cn:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.Background>
+
+            <LinearGradientBrush  StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#d08d96" Offset="0.25"/>
+                <GradientStop Color="#F9E5D6" Offset="1.0"/>
+            </LinearGradientBrush>
+
+        </Grid.Background>
+
+        <ContentControl Content="{Binding SelectedViewModel}"/>
+        <Rectangle
+            Width="800"
+            Height="100"
+            Fill="GhostWhite"
+            Canvas.Left="10"
+            Canvas.Top="0" 
+            Margin="0,0,0,350" />
+
+        <TextBlock x:Name="wlosing"  Foreground="#7f4c4d"  FontFamily=" Cambria " TextWrapping="Wrap" Text="Włosing" FontSize="60" TextAlignment="Center" Margin="105,13,461,363" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }">
+        </TextBlock>
+
+        <Button x:Name="quiz" BorderThickness="0" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }" Foreground="White" FontFamily=" Cambria " Content="Quiz" HorizontalAlignment="Left" FontSize="25" Width="84"  Margin="430,376,0,36" Command="{Binding UpdateViewCommand}">
+            <Button.Background>
+                <SolidColorBrush Color="#ba696c"  />
+            </Button.Background>
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="20"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+
+        <Button x:Name="accept" BorderThickness="0"  Foreground="White" FontFamily=" Cambria " Content="Zatwierdź" HorizontalAlignment="Left" FontSize="12" Width="74"  Margin="84,365,0,55" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }" >
+            <Button.Background>
+                <SolidColorBrush Color="#ba696c"  />
+            </Button.Background>
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="18"/>
+                </Style>
+            </Button.Resources>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <i:InvokeCommandAction Command="{Binding SearchCommand}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+
+
+        <Border
+            BorderThickness="1"    
+   BorderBrush="White" Margin="220,174,56,88" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }">
+            <Rectangle Fill="GhostWhite" 
+            Opacity="0.3"/>
+        </Border>
+
+        <ListView Name="listbox_prod" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }"
+                 Background="Transparent" BorderBrush="White" BorderThickness="1" Foreground="#5e3a3a" Opacity="1" Margin="220,174,56,88" ItemsSource="{Binding SelectedProductsSource}" SelectedItem="{Binding Path=SelectedProduct}">
+
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding Path=ShowLabelCommand}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ListView>
+
+
+        <ComboBox  x:Name="comboBox_cena"  Margin="596,128,95,298" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }"
+                   IsReadOnly="true" Text="Cena" Foreground="#5e3a3a" SelectedItem="{Binding Path=OrderType}" ItemsSource="{Binding Path=PriceOrderSource}">
+            
+        </ComboBox>
+
+        <ComboBox x:Name="comboBox_weg"  Margin="37,189,595,237" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }"
+                   IsReadOnly="true" Foreground="#5e3a3a" ItemsSource="{Binding Path=VeganSource}" SelectedItem="{Binding Path=VeganValue}" >
+            
+        </ComboBox>
+
+        <ComboBox x:Name="comboBox_kraj"  Margin="37,234,595,192" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }"
+                   IsReadOnly="true" Foreground="#5e3a3a" SelectedItem="{Binding Path=SelectedCountry}" ItemsSource="{Binding Path=CountriesSource}">
+            
+        </ComboBox>
+
+        <ComboBox x:Name="comboBox_typ"  Margin="37,278,595,148" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }"
+                   IsReadOnly="true" Foreground="#5e3a3a" SelectedItem="{Binding Path=SelectedType}" ItemsSource="{Binding Path=TypesSource}">
+        </ComboBox>
+
+        <ComboBox x:Name="comboBox_sklep" Margin="37,323,595,103" Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }"
+                   IsReadOnly="true" Foreground="#5e3a3a" SelectedItem="{Binding Path=SelectedShop}" ItemsSource="{Binding Path=ShopsSource}"  >
+            
+        </ComboBox>
+
+        <TextBox x:Name="textBox_search" VerticalContentAlignment="Center"                    Visibility="{Binding Path=Visibility, Converter={StaticResource BooleanToVisibilityConverter} }"
+                 Text="{Binding Path=NameOfProduct}" Background="GhostWhite" BorderThickness="1" BorderBrush="White" Foreground="#5e3a3a"   Margin="235,128,235,298" IsEnabled="True" >
+            <TextBox.Resources >
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="12"/>
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+       
+    </Grid>
+
+</UserControl>

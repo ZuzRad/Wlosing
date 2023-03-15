@@ -1,0 +1,34 @@
+super quiz
+Jak bardzo Twoje włosy się puszą?
+Puszenie się włosów możemy zauważyć, gdy krótsze włoski odstają na całej długości. 
+0,5
+Jak bardzo Twoje włosy są matowe?
+Matowe włosy - pozbawione blasku, bez połysku.
+0,5
+Jak łatwo Twoje włosy się plączą?
+Poplątane włosy ciężko rozczesać, a próba ich rozplątania nierzadko kończy się koniecznością szarpania.
+0,5
+Jak bardzo Twoje włosy się strączkują?
+Strączkowanie włosów polega na zlepianiu się włosów w większe pasma, które oddzielają się od siebie na końcach.
+0,5
+Jak bardzo Twoje włosy są suche?
+Włosy suche są nieprzyjemne w dotyku i sianowate, często brakuje połysku i sprężystości.
+0,5
+Jak bardzo Twoje włosy są szorstkie?
+Włosy szorstkie są odwodnione, kruche, łamliwe i brak im elastyczności.
+0,5
+Jak bardzo Twoje włosy są obciążone?
+Włosy obciążone zbijają się w strąki, mają niezdrowy połysk, wskutek przetłuszczenia i brak objętości.
+0,5
+Jak bardzo Twoje włosy się łamią?
+Łamliwe włosy są szorstkie w dotyku, niesforne i skłonne do puszenia się. Nawet podczas delikatnego szczotkowania, słabe końcówki spadają na ziemię.
+0,5
+Jak bardzo Twoje włosy się elektryzują?
+Włosy, które się elektryzują bardzo odstają od siebie.
+0,5
+Jak szybko Twoje włosy się przetłuszczają?
+Włosy przetłuszczone strączkują się i mają niezdrowy połysk.
+0,5
+Jak dużo włosów Ci wypada?
+Normą dla przeciętnej osoby jest od 50 do około 100 włosów dziennie. Jednak należy pamiętać, że każdy ma inne włosy - np dla osób z gęstszymi i grubszymi włosami ten przedział będzie większy.
+0,5

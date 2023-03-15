@@ -1,0 +1,62 @@
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.csproj.AssemblyReference.cache
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\Views\Quiz.g.cs
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing_MarkupCompile.cache
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing_MarkupCompile.lref
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\włosing.exe
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\włosing.deps.json
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\włosing.runtimeconfig.json
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\włosing.dll
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\włosing.pdb
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\Microsoft.Expression.Interactions.dll
+C:\Users\Zuzia\Desktop\włosing\włosing\bin\Debug\net6.0-windows\System.Windows.Interactivity.dll
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\Views\Search.g.cs
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\App.baml
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\Views\Quiz.baml
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\Views\Search.baml
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.g.resources
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.AssemblyInfoInputs.cache
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.AssemblyInfo.cs
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.csproj.CoreCompileInputs.cache
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.csproj.CopyComplete
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.dll
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\refint\włosing.dll
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.pdb
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\włosing.genruntimeconfig.cache
+C:\Users\Zuzia\Desktop\włosing\włosing\obj\Debug\net6.0-windows\ref\włosing.dll
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\włosing.exe
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\włosing.deps.json
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\włosing.runtimeconfig.json
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\włosing.dll
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\włosing.pdb
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\MySqlConnector.dll
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\Microsoft.Expression.Interactions.dll
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\bin\Debug\net6.0-windows\System.Windows.Interactivity.dll
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.csproj.AssemblyReference.cache
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\Views\Quiz.g.cs
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\Views\Search.g.cs
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\App.g.cs
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing_MarkupCompile.cache
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing_MarkupCompile.lref
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\App.baml
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\MainWindow.baml
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\Views\Quiz.baml
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\Views\Search.baml
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.g.resources
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.GeneratedMSBuildEditorConfig.editorconfig
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.AssemblyInfoInputs.cache
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.AssemblyInfo.cs
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.csproj.CoreCompileInputs.cache
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.csproj.CopyComplete
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.dll
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\refint\włosing.dll
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.pdb
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\włosing.genruntimeconfig.cache
+D:\studia\sem IV\Programowanie obiektowe i graficzne\projekt\włosing\włosing\obj\Debug\net6.0-windows\ref\włosing.dll

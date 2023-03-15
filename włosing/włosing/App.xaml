@@ -1,0 +1,16 @@
+﻿<Application x:Class="włosing.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:włosing"
+             xmlns:views="clr-namespace:włosing.Views"
+             xmlns:viewmodels="clr-namespace:włosing.ViewModel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type viewmodels:SearchViewModel}">
+            <views:Search/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodels:QuizViewModel}">
+            <views:Quiz/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>

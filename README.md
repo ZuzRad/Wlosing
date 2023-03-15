@@ -56,7 +56,6 @@ and the following entity relationships:
 - Produkuje: PRODUCENT Produkuje PRODUKT (1:n)
 
 The database structure and relations are presented in the following relational model:
-![image](https://user-images.githubusercontent.com/107064508/225465624-687211a9-0502-469b-8ce6-95c234e5c315.png)
 ![image](https://user-images.githubusercontent.com/107064508/225462026-6f6adec5-35f6-4d71-9086-bd5fc3659706.png)
 
 

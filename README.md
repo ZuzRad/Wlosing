@@ -33,7 +33,6 @@ List of features that the gapplication includes.
 - MVVM pattern
 - SQL
 - Soft set
-- 
 
 ## 📘 Database
 ![image](https://user-images.githubusercontent.com/107064508/225462026-6f6adec5-35f6-4d71-9086-bd5fc3659706.png)

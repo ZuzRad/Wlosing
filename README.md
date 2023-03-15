@@ -35,6 +35,25 @@ List of features that the gapplication includes.
 - Soft set
 
 ## 📘 Database
+The project uses its own Włosing database. Database
+hair products contains specific hair products that have their own
+unique number, price, name and specific type. Włosing stores information about availability
+products in stores and about their producers and country of origin. Hair problems
+are solved by many product types and as a result we get a group of products being
+specific types and meeting the given characteristics. The type specifies the problems to which
+affected by the product group. The database consists of 5 types of entities:
+• PRODUKTY nazwa, cena, wegański
+• PROBLEMY nazwa
+• SKLEPY nazwa
+• PRODUCENCI nazwa, kraj
+• TYPY typ
+and the following entity relationships:
+• Jest dostępny: PRODUKT Jest dostępny w SKLEPIE (n:m)
+• Rozwiązuje: TYP Rozwiązuje PROBLEM (n:m)
+• Jest: PRODUKT Jest TYPU (n:1)
+• Produkuje: PRODUCENT Produkuje PRODUKT (1:n)
+The database structure and relations are presented in the following entity relationship diagram and relational model:
+![image](https://user-images.githubusercontent.com/107064508/225465624-687211a9-0502-469b-8ce6-95c234e5c315.png)
 ![image](https://user-images.githubusercontent.com/107064508/225462026-6f6adec5-35f6-4d71-9086-bd5fc3659706.png)
 
 

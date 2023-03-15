@@ -5,12 +5,12 @@
 
 
 ## 📖 Table of Contents
-* [General Information](https://github.com/ZuzRad/Wlosine#-general-information)
+* [General Information](https://github.com/ZuzRad/Wlosing#-general-information)
 * [Application Features](https://github.com/ZuzRad/Wlosing#-application-features)
-* [Learning goals](https://github.com/ZuzRad/Wlosine#-learning-goals)
+* [Learning goals](https://github.com/ZuzRad/Wlosing#-learning-goals)
 * [Database](https://github.com/ZuzRad/Wlosing#-database)
 * [Screenshots](https://github.com/ZuzRad/Wlosing#-screenshots)
-* [Project status](https://github.com/ZuzRad/Wlosin#-project-status)
+* [Project status](https://github.com/ZuzRad/Wlosing#-project-status)
 
 ## 📝 General Information
 wlosing is a .NET WPF application that, using a soft set, determines hair care for the user and proposes a set of products using a database. The project was made according to the MVVM pattern. In the project, the database was placed in the DAL layer, where database access, SQL queries and data reading are supported. 
